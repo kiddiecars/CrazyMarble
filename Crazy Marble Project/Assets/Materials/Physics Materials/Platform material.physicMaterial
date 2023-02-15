@@ -6,13 +6,9 @@ PhysicMaterial:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Marble Physics Material
+  m_Name: Platform material
   dynamicFriction: 0.6
   staticFriction: 0.6
-<<<<<<< HEAD
   bounciness: 0
-=======
-  bounciness: 1
->>>>>>> f6502f5a8e41fd2edaf29ed0e5c972e876df3323
   frictionCombine: 0
   bounceCombine: 0
