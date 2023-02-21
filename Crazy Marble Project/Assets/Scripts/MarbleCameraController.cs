@@ -4,21 +4,19 @@ using UnityEngine;
 
 public class MarbleCameraController : MonoBehaviour
 {
-[SerializeField]
+    [SerializeField]
     private Transform _target;
-
     [SerializeField]
-
-    private int _zdistance;
+    private float _zDistance;
     [SerializeField]
-
-    private int _ydistance;
+    private float _yDistance;
 
     // Update is called once per frame
     void Update()
     {
         Vector3 p = _target.position;
-        p.z = p.z - 10;
+        p.z = p.z - _zDistance;
+        p.y += _yDistance;
         transform.position = p;
     }
 }
